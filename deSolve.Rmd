@@ -2,7 +2,7 @@
 
 ```{r}
 require(deSolve)
-a = c(-1, 2, 4, 3, 10) This is wrong
+a = c(-1, 2, 4, 3, 10) This is wrong. No this is right
 E_max = c(10, 20)
 r = c(0.5, 0.5)
 dI = function(t, E, parms) {
